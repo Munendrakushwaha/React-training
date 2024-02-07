@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+table,
+th,
+td {
+  border: 1px solid;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* nav {
+  background: #deb887;
+  height: auto; 
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  margin: 10px;
+  padding: 1rem calc((100vw - 1000px) / 2);
+  z-index: 12;
+  margin: 0;
+} */
+
+/* Navbar container styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1D2F3E; /* Change the background color as needed */
+  padding: 10px;
+}
+
+/* Link styles */
+.navbar a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+/* Hover effect on links */
+.navbar a:hover {
+  background-color: #555; /* Change the background color on hover */
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E6E6E; /* Change the background color as needed */
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Link styles */
+nav a {
+  text-decoration: none;
+  color: #fff; /* Link text color */
+  padding: 8px 10px;
+  border-radius: 5px;
+}
+
+/* Hover effect on links */
+nav a:hover {
+  background-color: #555; /* Change the background color on hover */
+}
+
+#question {
+  border: 3px outset black;
+  background-color: #eceff1;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+  justify-content: center;
+}
